@@ -1,0 +1,2 @@
+[DEBUG] 2018-01-18 11:45:07.092 [main] com.jsoftware95.jpanzer.game.TankClient - starting game: Player VS Bot
+[DEBUG] 2018-01-18 11:46:25.585 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: Player VS Bot (took 78,67 sec) player2 won p1 score: -2806, p2 score: 2123

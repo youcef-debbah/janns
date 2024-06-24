@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="janns:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/janns_jar</output-path>
+    <root id="archive" name="janns.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/janns_jar/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="janns" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/testng/testng/6.13.1/testng-6.13.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/objenesis-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/beust/jcommander/1.72/jcommander-1.72.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/15.0/annotations-15.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

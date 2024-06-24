@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="testng-all-tests">
+    <test name="test-all">
+        <packages>
+            <package name="com.jsoftware95.*">
+                <exclude name="com.jsoftware95.testng"/>
+            </package>
+        </packages>
+    </test>
+</suite>

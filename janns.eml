@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_8" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/src/main/java/com/jsoftware95/janns/api/doc-files"/>
+		<excludeFolder url="file://$MODULE_DIR$/src/main/java/com/jsoftware95/janns/doc-files"/>
+		<excludeFolder url="file://$MODULE_DIR$/src/main/java/com/jsoftware95/toolkit/doc-files"/>
+		<excludeFolder url="file://$MODULE_DIR$/src/test/java/org/mockito/configuration/doc-files"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+		<excludeFolder url="file://$MODULE_DIR$/zipped-output"/>
+	</contentEntry>
+	<levels>
+		<level name="Maven: org.testng:testng:6.13.1" value="project"/>
+		<level name="Maven: com.beust:jcommander:1.72" value="project"/>
+		<level name="Maven: org.apache.logging.log4j:log4j-api:2.10.0" value="project"/>
+		<level name="Maven: org.apache.logging.log4j:log4j-core:2.10.0" value="project"/>
+		<level name="Maven: org.jetbrains:annotations:15.0" value="project"/>
+		<level name="Maven: org.mockito:mockito-core:2.13.0" value="project"/>
+		<level name="Maven: net.bytebuddy:byte-buddy:1.7.9" value="project"/>
+		<level name="Maven: net.bytebuddy:byte-buddy-agent:1.7.9" value="project"/>
+		<level name="Maven: org.objenesis:objenesis:2.6" value="project"/>
+	</levels>
+</component>

@@ -1,0 +1,314 @@
+[DEBUG] 2018-01-18 11:01:13.063 [pool-4-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: Alpha (generation: 437) VS Beta (generation: 437)
+[DEBUG] 2018-01-18 11:01:23.197 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: Alpha (generation: 437) VS Beta (generation: 437) (took 10,66 sec) p1 score: -271, p2 score: 162
+[DEBUG] 2018-01-18 11:01:24.322 [pool-8-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 001/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:24.353 [pool-9-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 001/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:25.072 [pool-8-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 002/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:25.119 [pool-9-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 002/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:25.806 [pool-8-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 003/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:25.837 [pool-9-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 003/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:26.556 [pool-8-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 004/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:26.587 [pool-9-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 004/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:27.306 [pool-8-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 005/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:27.337 [pool-9-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 005/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:28.056 [pool-8-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 006/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:28.103 [pool-9-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 006/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:28.884 [pool-8-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 007/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:28.947 [pool-9-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 007/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:29.572 [pool-8-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 008/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:29.634 [pool-9-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 008/123 for: Beta (generation: 438)
+[ERROR] 2018-01-18 11:01:30.369 [pool-2-thread-1] com.jsoftware95.jpanzer.agents.Player - evolution timeout (candidate excluded)
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[?:1.8.0_66]
+	at com.jsoftware95.jpanzer.agents.Player.evolveBrain(Player.java:198) [classes/:?]
+	at com.jsoftware95.jpanzer.agents.Player.access$500(Player.java:55) [classes/:?]
+	at com.jsoftware95.jpanzer.agents.Player$Evolver.run(Player.java:414) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[ERROR] 2018-01-18 11:01:30.369 [pool-3-thread-1] com.jsoftware95.jpanzer.agents.Player - evolution timeout (candidate excluded)
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[?:1.8.0_66]
+	at com.jsoftware95.jpanzer.agents.Player.evolveBrain(Player.java:198) [classes/:?]
+	at com.jsoftware95.jpanzer.agents.Player.access$500(Player.java:55) [classes/:?]
+	at com.jsoftware95.jpanzer.agents.Player$Evolver.run(Player.java:414) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[DEBUG] 2018-01-18 11:01:30.384 [pool-8-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 009/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:30.400 [pool-9-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 009/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:31.431 [pool-9-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 010/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:31.494 [pool-8-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 010/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:36.682 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 001/123 for: Alpha (generation: 438) (took 12,37 sec) p1 score: -206, p2 score: -420
+[DEBUG] 2018-01-18 11:01:36.697 [pool-8-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 011/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:36.713 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 001/123 for: Beta (generation: 438) (took 12,37 sec) p1 score: 35, p2 score: 426
+[DEBUG] 2018-01-18 11:01:36.728 [pool-9-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 011/123 for: Beta (generation: 438)
+[ERROR] 2018-01-18 11:01:37.135 [pool-2-thread-1] com.jsoftware95.jpanzer.agents.Player - evolution timeout (candidate excluded)
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[?:1.8.0_66]
+	at com.jsoftware95.jpanzer.agents.Player.evolveBrain(Player.java:198) [classes/:?]
+	at com.jsoftware95.jpanzer.agents.Player.access$500(Player.java:55) [classes/:?]
+	at com.jsoftware95.jpanzer.agents.Player$Evolver.run(Player.java:414) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[ERROR] 2018-01-18 11:01:37.135 [pool-3-thread-1] com.jsoftware95.jpanzer.agents.Player - evolution timeout (candidate excluded)
+java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205) ~[?:1.8.0_66]
+	at com.jsoftware95.jpanzer.agents.Player.evolveBrain(Player.java:198) [classes/:?]
+	at com.jsoftware95.jpanzer.agents.Player.access$500(Player.java:55) [classes/:?]
+	at com.jsoftware95.jpanzer.agents.Player$Evolver.run(Player.java:414) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[DEBUG] 2018-01-18 11:01:37.416 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 002/123 for: Beta (generation: 438) (took 12,31 sec) p1 score: -179, p2 score: 10
+[DEBUG] 2018-01-18 11:01:37.447 [pool-9-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 012/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:37.463 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 002/123 for: Alpha (generation: 438) (took 12,41 sec) p1 score: -187, p2 score: -382
+[DEBUG] 2018-01-18 11:01:37.479 [pool-8-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 012/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:38.150 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 003/123 for: Alpha (generation: 438) (took 12,34 sec) p1 score: -172, p2 score: 230
+[DEBUG] 2018-01-18 11:01:38.166 [pool-8-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 013/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:38.244 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 003/123 for: Beta (generation: 438) (took 12,42 sec) p1 score: 559, p2 score: -184
+[DEBUG] 2018-01-18 11:01:38.275 [pool-9-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 013/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:38.729 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 004/123 for: Alpha (generation: 438) (took 12,17 sec) p1 score: -164, p2 score: -433
+[DEBUG] 2018-01-18 11:01:38.744 [pool-8-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 014/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:38.807 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 004/123 for: Beta (generation: 438) (took 12,23 sec) p1 score: -40, p2 score: 340
+[DEBUG] 2018-01-18 11:01:38.838 [pool-9-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 014/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:39.588 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 005/123 for: Alpha (generation: 438) (took 12,29 sec) p1 score: 110, p2 score: -209
+[DEBUG] 2018-01-18 11:01:39.604 [pool-8-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 015/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:39.697 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 005/123 for: Beta (generation: 438) (took 12,36 sec) p1 score: -156, p2 score: 194
+[DEBUG] 2018-01-18 11:01:39.713 [pool-9-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 015/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:40.354 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 006/123 for: Beta (generation: 438) (took 12,26 sec) p1 score: -32, p2 score: 220
+[DEBUG] 2018-01-18 11:01:40.354 [pool-9-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 016/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:40.404 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 006/123 for: Alpha (generation: 438) (took 12,35 sec) p1 score: -142, p2 score: -42
+[DEBUG] 2018-01-18 11:01:40.451 [pool-8-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 016/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:41.375 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 007/123 for: Alpha (generation: 438) (took 12,56 sec) p1 score: 259, p2 score: -281
+[DEBUG] 2018-01-18 11:01:41.453 [pool-8-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 017/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:41.468 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 007/123 for: Beta (generation: 438) (took 12,56 sec) p1 score: 503, p2 score: -88
+[DEBUG] 2018-01-18 11:01:41.484 [pool-9-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 017/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:42.250 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 008/123 for: Alpha (generation: 438) (took 12,69 sec) p1 score: -149, p2 score: -307
+[DEBUG] 2018-01-18 11:01:42.265 [pool-8-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 018/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:42.359 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 008/123 for: Beta (generation: 438) (took 12,73 sec) p1 score: 1107, p2 score: 112
+[DEBUG] 2018-01-18 11:01:42.390 [pool-9-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 018/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:42.890 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 009/123 for: Alpha (generation: 438) (took 12,52 sec) p1 score: 809, p2 score: -148
+[DEBUG] 2018-01-18 11:01:42.922 [pool-8-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 019/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:42.968 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 009/123 for: Beta (generation: 438) (took 12,59 sec) p1 score: -148, p2 score: -304
+[DEBUG] 2018-01-18 11:01:43.015 [pool-9-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 019/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:43.437 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 010/123 for: Beta (generation: 438) (took 12,03 sec) p1 score: -143, p2 score: -295
+[DEBUG] 2018-01-18 11:01:43.453 [pool-9-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 020/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:43.484 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 010/123 for: Alpha (generation: 438) (took 12,06 sec) p1 score: 85, p2 score: -46
+[DEBUG] 2018-01-18 11:01:43.515 [pool-8-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 020/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:47.640 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 011/123 for: Alpha (generation: 438) (took 10,95 sec) p1 score: -129, p2 score: -121
+[DEBUG] 2018-01-18 11:01:47.656 [pool-8-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 021/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:47.734 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 011/123 for: Beta (generation: 438) (took 11,01 sec) p1 score: -151, p2 score: -83
+[DEBUG] 2018-01-18 11:01:47.750 [pool-9-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 021/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:48.344 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 012/123 for: Beta (generation: 438) (took 10,91 sec) p1 score: 608, p2 score: 490
+[DEBUG] 2018-01-18 11:01:48.359 [pool-9-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 022/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:48.453 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 012/123 for: Alpha (generation: 438) (took 10,97 sec) p1 score: 120, p2 score: -91
+[DEBUG] 2018-01-18 11:01:48.453 [pool-8-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 022/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:49.219 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 013/123 for: Alpha (generation: 438) (took 11,05 sec) p1 score: 95, p2 score: -45
+[DEBUG] 2018-01-18 11:01:49.234 [pool-8-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 023/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:49.312 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 013/123 for: Beta (generation: 438) (took 11,05 sec) p1 score: 4, p2 score: 85
+[DEBUG] 2018-01-18 11:01:49.328 [pool-9-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 023/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:49.703 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 014/123 for: Alpha (generation: 438) (took 10,97 sec) p1 score: 233, p2 score: -312
+[DEBUG] 2018-01-18 11:01:49.719 [pool-8-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 024/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:49.719 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 014/123 for: Beta (generation: 438) (took 10,91 sec) p1 score: -147, p2 score: 972
+[DEBUG] 2018-01-18 11:01:49.734 [pool-9-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 024/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:50.734 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 015/123 for: Alpha (generation: 438) (took 11,14 sec) p1 score: -8, p2 score: -64
+[DEBUG] 2018-01-18 11:01:50.766 [pool-8-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 025/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:50.828 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 015/123 for: Beta (generation: 438) (took 11,12 sec) p1 score: -147, p2 score: 120
+[DEBUG] 2018-01-18 11:01:50.828 [pool-9-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 025/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:51.594 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 016/123 for: Beta (generation: 438) (took 11,25 sec) p1 score: -142, p2 score: 3
+[DEBUG] 2018-01-18 11:01:51.609 [pool-9-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 026/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:51.641 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 016/123 for: Alpha (generation: 438) (took 11,21 sec) p1 score: 59, p2 score: 280
+[DEBUG] 2018-01-18 11:01:51.656 [pool-8-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 026/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:52.188 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 017/123 for: Alpha (generation: 438) (took 10,81 sec) p1 score: -158, p2 score: -324
+[DEBUG] 2018-01-18 11:01:52.203 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 017/123 for: Beta (generation: 438) (took 10,72 sec) p1 score: 595, p2 score: 280
+[DEBUG] 2018-01-18 11:01:52.203 [pool-8-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 027/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:52.219 [pool-9-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 027/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:52.750 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 018/123 for: Alpha (generation: 438) (took 10,50 sec) p1 score: -155, p2 score: -317
+[DEBUG] 2018-01-18 11:01:52.766 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 018/123 for: Beta (generation: 438) (took 10,39 sec) p1 score: -132, p2 score: 245
+[DEBUG] 2018-01-18 11:01:52.766 [pool-8-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 028/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:52.781 [pool-9-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 028/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:53.203 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 019/123 for: Beta (generation: 438) (took 10,19 sec) p1 score: 1124, p2 score: 236
+[DEBUG] 2018-01-18 11:01:53.203 [pool-9-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 029/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:53.266 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 019/123 for: Alpha (generation: 438) (took 10,35 sec) p1 score: -154, p2 score: -316
+[DEBUG] 2018-01-18 11:01:53.281 [pool-8-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 029/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:53.610 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 020/123 for: Beta (generation: 438) (took 10,16 sec) p1 score: -13, p2 score: 636
+[DEBUG] 2018-01-18 11:01:53.625 [pool-9-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 030/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:53.703 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 020/123 for: Alpha (generation: 438) (took 10,21 sec) p1 score: -143, p2 score: -232
+[DEBUG] 2018-01-18 11:01:53.719 [pool-8-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 030/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:57.719 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 021/123 for: Alpha (generation: 438) (took 10,06 sec) p1 score: -140, p2 score: 111
+[DEBUG] 2018-01-18 11:01:57.719 [pool-8-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 031/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:57.813 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 021/123 for: Beta (generation: 438) (took 10,07 sec) p1 score: 830, p2 score: -107
+[DEBUG] 2018-01-18 11:01:57.828 [pool-9-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 031/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:58.563 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 022/123 for: Beta (generation: 438) (took 10,21 sec) p1 score: -148, p2 score: 0
+[DEBUG] 2018-01-18 11:01:58.594 [pool-9-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 032/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:58.641 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 022/123 for: Alpha (generation: 438) (took 10,19 sec) p1 score: -15, p2 score: -94
+[DEBUG] 2018-01-18 11:01:58.672 [pool-8-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 032/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:59.532 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 023/123 for: Alpha (generation: 438) (took 10,30 sec) p1 score: -36, p2 score: -73
+[DEBUG] 2018-01-18 11:01:59.532 [pool-8-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 033/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:01:59.594 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 023/123 for: Beta (generation: 438) (took 10,27 sec) p1 score: -18, p2 score: 329
+[DEBUG] 2018-01-18 11:01:59.610 [pool-9-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 033/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:01:59.985 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 024/123 for: Beta (generation: 438) (took 10,25 sec) p1 score: -140, p2 score: -31
+[DEBUG] 2018-01-18 11:01:59.985 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 024/123 for: Alpha (generation: 438) (took 10,27 sec) p1 score: 94, p2 score: -71
+[DEBUG] 2018-01-18 11:02:00.000 [pool-8-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 034/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:00.000 [pool-9-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 034/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:00.860 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 025/123 for: Alpha (generation: 438) (took 10,11 sec) p1 score: -54, p2 score: -67
+[DEBUG] 2018-01-18 11:02:00.875 [pool-8-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 035/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:00.891 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 025/123 for: Beta (generation: 438) (took 10,07 sec) p1 score: -147, p2 score: -133
+[DEBUG] 2018-01-18 11:02:00.907 [pool-9-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 035/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:01.802 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 026/123 for: Beta (generation: 438) (took 10,21 sec) p1 score: -836, p2 score: -152
+[DEBUG] 2018-01-18 11:02:01.818 [pool-9-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 036/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:01.865 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 026/123 for: Alpha (generation: 438) (took 10,21 sec) p1 score: -35, p2 score: 156
+[DEBUG] 2018-01-18 11:02:01.881 [pool-8-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 036/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:02.396 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 027/123 for: Alpha (generation: 438) (took 10,20 sec) p1 score: -143, p2 score: -370
+[DEBUG] 2018-01-18 11:02:02.412 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 027/123 for: Beta (generation: 438) (took 10,20 sec) p1 score: -146, p2 score: -82
+[DEBUG] 2018-01-18 11:02:02.412 [pool-8-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 037/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:02.443 [pool-9-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 037/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:02.865 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 028/123 for: Beta (generation: 438) (took 10,09 sec) p1 score: -119, p2 score: 3
+[DEBUG] 2018-01-18 11:02:02.881 [pool-9-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 038/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:02.912 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 028/123 for: Alpha (generation: 438) (took 10,15 sec) p1 score: 346, p2 score: -136
+[DEBUG] 2018-01-18 11:02:02.927 [pool-8-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 038/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:03.365 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 029/123 for: Beta (generation: 438) (took 10,17 sec) p1 score: -149, p2 score: -305
+[DEBUG] 2018-01-18 11:02:03.381 [pool-9-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 039/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:03.443 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 029/123 for: Alpha (generation: 438) (took 10,17 sec) p1 score: -146, p2 score: -144
+[DEBUG] 2018-01-18 11:02:03.459 [pool-8-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 039/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:03.724 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 030/123 for: Beta (generation: 438) (took 10,11 sec) p1 score: -141, p2 score: 247
+[DEBUG] 2018-01-18 11:02:03.740 [pool-9-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 040/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:03.787 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 030/123 for: Alpha (generation: 438) (took 10,07 sec) p1 score: 146, p2 score: -24
+[DEBUG] 2018-01-18 11:02:03.803 [pool-8-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 040/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:07.756 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 031/123 for: Alpha (generation: 438) (took 10,04 sec) p1 score: -153, p2 score: -575
+[DEBUG] 2018-01-18 11:02:07.771 [pool-8-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 041/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:07.850 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 031/123 for: Beta (generation: 438) (took 10,03 sec) p1 score: -140, p2 score: -144
+[DEBUG] 2018-01-18 11:02:07.865 [pool-9-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 041/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:08.553 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 032/123 for: Beta (generation: 438) (took 9,98 sec) p1 score: 107, p2 score: -223
+[DEBUG] 2018-01-18 11:02:08.568 [pool-9-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 042/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:08.600 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 032/123 for: Alpha (generation: 438) (took 9,94 sec) p1 score: -151, p2 score: 480
+[DEBUG] 2018-01-18 11:02:08.615 [pool-8-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 042/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:09.397 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 033/123 for: Alpha (generation: 438) (took 9,86 sec) p1 score: -161, p2 score: -330
+[DEBUG] 2018-01-18 11:02:09.412 [pool-8-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 043/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:09.428 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 033/123 for: Beta (generation: 438) (took 9,82 sec) p1 score: -4, p2 score: 138
+[DEBUG] 2018-01-18 11:02:09.443 [pool-9-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 043/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:09.865 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 034/123 for: Alpha (generation: 438) (took 9,86 sec) p1 score: 49, p2 score: -31
+[DEBUG] 2018-01-18 11:02:09.881 [pool-8-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 044/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:09.959 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 034/123 for: Beta (generation: 438) (took 9,96 sec) p1 score: -138, p2 score: 702
+[DEBUG] 2018-01-18 11:02:09.975 [pool-9-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 044/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:10.803 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 035/123 for: Alpha (generation: 438) (took 9,94 sec) p1 score: -117, p2 score: 769
+[DEBUG] 2018-01-18 11:02:10.818 [pool-8-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 045/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:10.865 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 035/123 for: Beta (generation: 438) (took 9,97 sec) p1 score: -145, p2 score: -114
+[DEBUG] 2018-01-18 11:02:10.881 [pool-9-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 045/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:11.709 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 036/123 for: Alpha (generation: 438) (took 9,84 sec) p1 score: 492, p2 score: 223
+[DEBUG] 2018-01-18 11:02:11.709 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 036/123 for: Beta (generation: 438) (took 9,90 sec) p1 score: -358, p2 score: 402
+[DEBUG] 2018-01-18 11:02:11.725 [pool-8-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 046/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:11.740 [pool-9-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 046/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:12.256 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 037/123 for: Beta (generation: 438) (took 9,83 sec) p1 score: -54, p2 score: 652
+[DEBUG] 2018-01-18 11:02:12.272 [pool-9-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 047/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:12.350 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 037/123 for: Alpha (generation: 438) (took 9,94 sec) p1 score: -148, p2 score: -30
+[DEBUG] 2018-01-18 11:02:12.365 [pool-8-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 047/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:12.662 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 038/123 for: Beta (generation: 438) (took 9,79 sec) p1 score: -140, p2 score: -160
+[DEBUG] 2018-01-18 11:02:12.678 [pool-9-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 048/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:12.772 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 038/123 for: Alpha (generation: 438) (took 9,85 sec) p1 score: -146, p2 score: -173
+[DEBUG] 2018-01-18 11:02:12.787 [pool-8-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 048/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:13.147 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 039/123 for: Beta (generation: 438) (took 9,77 sec) p1 score: -144, p2 score: -159
+[DEBUG] 2018-01-18 11:02:13.162 [pool-9-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 049/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:13.225 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 039/123 for: Alpha (generation: 438) (took 9,78 sec) p1 score: -585, p2 score: 249
+[DEBUG] 2018-01-18 11:02:13.240 [pool-8-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 049/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:13.569 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 040/123 for: Beta (generation: 438) (took 9,83 sec) p1 score: -142, p2 score: 23
+[DEBUG] 2018-01-18 11:02:13.569 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 040/123 for: Alpha (generation: 438) (took 9,77 sec) p1 score: 260, p2 score: -72
+[DEBUG] 2018-01-18 11:02:13.584 [pool-8-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 050/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:13.600 [pool-9-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 050/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:17.584 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 041/123 for: Beta (generation: 438) (took 9,72 sec) p1 score: 730, p2 score: 65
+[DEBUG] 2018-01-18 11:02:17.600 [pool-9-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 051/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:17.616 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 041/123 for: Alpha (generation: 438) (took 9,86 sec) p1 score: 124, p2 score: -84
+[DEBUG] 2018-01-18 11:02:17.631 [pool-8-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 051/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:18.381 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 042/123 for: Beta (generation: 438) (took 9,82 sec) p1 score: 1109, p2 score: 271
+[DEBUG] 2018-01-18 11:02:18.397 [pool-9-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 052/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:18.428 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 042/123 for: Alpha (generation: 438) (took 9,82 sec) p1 score: -144, p2 score: 125
+[DEBUG] 2018-01-18 11:02:18.444 [pool-8-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 052/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:19.335 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 043/123 for: Alpha (generation: 438) (took 9,93 sec) p1 score: -140, p2 score: -118
+[DEBUG] 2018-01-18 11:02:19.350 [pool-8-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 053/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:19.366 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 043/123 for: Beta (generation: 438) (took 9,93 sec) p1 score: 712, p2 score: 142
+[DEBUG] 2018-01-18 11:02:19.381 [pool-9-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 053/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:19.710 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 044/123 for: Alpha (generation: 438) (took 9,83 sec) p1 score: -145, p2 score: 60
+[DEBUG] 2018-01-18 11:02:19.725 [pool-8-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 054/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:19.756 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 044/123 for: Beta (generation: 438) (took 9,79 sec) p1 score: 926, p2 score: -113
+[DEBUG] 2018-01-18 11:02:19.772 [pool-9-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 054/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:20.569 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 045/123 for: Alpha (generation: 438) (took 9,75 sec) p1 score: 40, p2 score: -78
+[DEBUG] 2018-01-18 11:02:20.585 [pool-8-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 055/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:20.600 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 045/123 for: Beta (generation: 438) (took 9,73 sec) p1 score: 1164, p2 score: 61
+[DEBUG] 2018-01-18 11:02:20.616 [pool-9-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 055/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:21.366 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 046/123 for: Alpha (generation: 438) (took 9,64 sec) p1 score: 151, p2 score: -74
+[DEBUG] 2018-01-18 11:02:21.381 [pool-8-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 056/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:21.475 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 046/123 for: Beta (generation: 438) (took 9,76 sec) p1 score: 277, p2 score: -143
+[DEBUG] 2018-01-18 11:02:21.553 [pool-9-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 056/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:22.465 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 047/123 for: Beta (generation: 438) (took 10,20 sec) p1 score: 1112, p2 score: 64
+[DEBUG] 2018-01-18 11:02:22.481 [pool-9-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 057/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:22.574 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 047/123 for: Alpha (generation: 438) (took 10,21 sec) p1 score: -162, p2 score: -215
+[DEBUG] 2018-01-18 11:02:22.590 [pool-8-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 057/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:23.090 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 048/123 for: Beta (generation: 438) (took 10,42 sec) p1 score: -151, p2 score: -47
+[DEBUG] 2018-01-18 11:02:23.168 [pool-9-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 058/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:23.387 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 048/123 for: Alpha (generation: 438) (took 10,61 sec) p1 score: -50, p2 score: -84
+[DEBUG] 2018-01-18 11:02:23.403 [pool-8-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 058/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:23.824 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 049/123 for: Beta (generation: 438) (took 10,67 sec) p1 score: 582, p2 score: 337
+[DEBUG] 2018-01-18 11:02:23.824 [pool-9-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 059/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:23.949 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 049/123 for: Alpha (generation: 438) (took 10,72 sec) p1 score: -63, p2 score: -92
+[DEBUG] 2018-01-18 11:02:23.965 [pool-8-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 059/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:24.278 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 050/123 for: Beta (generation: 438) (took 10,70 sec) p1 score: -159, p2 score: -46
+[DEBUG] 2018-01-18 11:02:24.293 [pool-9-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 060/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:24.324 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 050/123 for: Alpha (generation: 438) (took 10,75 sec) p1 score: -151, p2 score: 144
+[DEBUG] 2018-01-18 11:02:24.340 [pool-8-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 060/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:28.293 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 051/123 for: Beta (generation: 438) (took 10,70 sec) p1 score: -165, p2 score: -51
+[DEBUG] 2018-01-18 11:02:28.309 [pool-9-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 061/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:28.325 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 051/123 for: Alpha (generation: 438) (took 10,70 sec) p1 score: -159, p2 score: -78
+[DEBUG] 2018-01-18 11:02:28.340 [pool-8-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 061/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:29.075 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 052/123 for: Beta (generation: 438) (took 10,68 sec) p1 score: 753, p2 score: 307
+[DEBUG] 2018-01-18 11:02:29.090 [pool-9-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 062/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:29.106 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 052/123 for: Alpha (generation: 438) (took 10,67 sec) p1 score: -164, p2 score: -97
+[DEBUG] 2018-01-18 11:02:29.122 [pool-8-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 062/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:29.887 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 053/123 for: Alpha (generation: 438) (took 10,55 sec) p1 score: -170, p2 score: -347
+[DEBUG] 2018-01-18 11:02:29.918 [pool-8-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 063/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:29.997 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 053/123 for: Beta (generation: 438) (took 10,62 sec) p1 score: -721, p2 score: 1080
+[DEBUG] 2018-01-18 11:02:30.012 [pool-9-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 063/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:30.262 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 054/123 for: Alpha (generation: 438) (took 10,54 sec) p1 score: 52, p2 score: -69
+[DEBUG] 2018-01-18 11:02:30.278 [pool-8-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 064/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:30.340 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 054/123 for: Beta (generation: 438) (took 10,57 sec) p1 score: -154, p2 score: -126
+[DEBUG] 2018-01-18 11:02:30.356 [pool-9-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 064/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:31.153 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 055/123 for: Alpha (generation: 438) (took 10,58 sec) p1 score: -157, p2 score: -148
+[DEBUG] 2018-01-18 11:02:31.169 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 055/123 for: Beta (generation: 438) (took 10,55 sec) p1 score: 1113, p2 score: -141
+[DEBUG] 2018-01-18 11:02:31.169 [pool-8-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 065/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:31.184 [pool-9-thread-5] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 065/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:31.965 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 056/123 for: Alpha (generation: 438) (took 10,59 sec) p1 score: -159, p2 score: 7
+[DEBUG] 2018-01-18 11:02:31.981 [pool-8-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 066/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:32.059 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 056/123 for: Beta (generation: 438) (took 10,53 sec) p1 score: -151, p2 score: -151
+[DEBUG] 2018-01-18 11:02:32.075 [pool-9-thread-6] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 066/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:32.497 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 057/123 for: Beta (generation: 438) (took 10,01 sec) p1 score: -42, p2 score: 367
+[DEBUG] 2018-01-18 11:02:32.512 [pool-9-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 067/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:32.637 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 057/123 for: Alpha (generation: 438) (took 10,04 sec) p1 score: 77, p2 score: -125
+[DEBUG] 2018-01-18 11:02:32.653 [pool-8-thread-7] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 067/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:32.903 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 058/123 for: Beta (generation: 438) (took 9,75 sec) p1 score: 700, p2 score: -70
+[DEBUG] 2018-01-18 11:02:32.919 [pool-9-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 068/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:33.137 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 058/123 for: Alpha (generation: 438) (took 9,74 sec) p1 score: -157, p2 score: 224
+[DEBUG] 2018-01-18 11:02:33.153 [pool-8-thread-8] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 068/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:33.434 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 059/123 for: Beta (generation: 438) (took 9,61 sec) p1 score: 1177, p2 score: -12
+[DEBUG] 2018-01-18 11:02:33.450 [pool-9-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 069/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:33.528 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 059/123 for: Alpha (generation: 438) (took 9,56 sec) p1 score: 187, p2 score: -99
+[DEBUG] 2018-01-18 11:02:33.544 [pool-8-thread-9] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 069/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:33.825 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 060/123 for: Beta (generation: 438) (took 9,54 sec) p1 score: -101, p2 score: 310
+[DEBUG] 2018-01-18 11:02:33.841 [pool-9-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 070/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:33.919 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 060/123 for: Alpha (generation: 438) (took 9,58 sec) p1 score: -156, p2 score: -172
+[DEBUG] 2018-01-18 11:02:33.934 [pool-8-thread-10] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 070/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:37.841 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 061/123 for: Beta (generation: 438) (took 9,54 sec) p1 score: -151, p2 score: -77
+[DEBUG] 2018-01-18 11:02:37.856 [pool-9-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 071/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:37.888 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 061/123 for: Alpha (generation: 438) (took 9,55 sec) p1 score: -150, p2 score: -170
+[DEBUG] 2018-01-18 11:02:37.919 [pool-8-thread-1] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 071/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:38.638 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 062/123 for: Beta (generation: 438) (took 9,56 sec) p1 score: -151, p2 score: 3
+[DEBUG] 2018-01-18 11:02:38.653 [pool-9-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 072/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:38.669 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 062/123 for: Alpha (generation: 438) (took 9,55 sec) p1 score: 39, p2 score: -9
+[DEBUG] 2018-01-18 11:02:38.685 [pool-8-thread-2] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 072/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:39.497 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 063/123 for: Alpha (generation: 438) (took 9,58 sec) p1 score: -150, p2 score: 150
+[DEBUG] 2018-01-18 11:02:39.513 [pool-8-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 073/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:39.560 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 063/123 for: Beta (generation: 438) (took 9,56 sec) p1 score: -149, p2 score: -179
+[DEBUG] 2018-01-18 11:02:39.575 [pool-9-thread-3] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 073/123 for: Beta (generation: 438)
+[DEBUG] 2018-01-18 11:02:39.903 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 064/123 for: Alpha (generation: 438) (took 9,64 sec) p1 score: 24, p2 score: -15
+[DEBUG] 2018-01-18 11:02:39.919 [pool-8-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 074/123 for: Alpha (generation: 438)
+[DEBUG] 2018-01-18 11:02:39.997 [AWT-EventQueue-0] com.jsoftware95.jpanzer.game.TankClient - round ended: fitness test: 064/123 for: Beta (generation: 438) (took 9,65 sec) p1 score: 777, p2 score: 60
+[DEBUG] 2018-01-18 11:02:40.028 [pool-9-thread-4] com.jsoftware95.jpanzer.game.TankClient - starting game: fitness test: 074/123 for: Beta (generation: 438)

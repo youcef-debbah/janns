@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testng-all-tests">
+              <span class="suite-name border-passed">testng-all-tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testng-all-tests">
+                    <span>C:\Users\youcef\.IntelliJIdea2017.3\system\janns_testng_all_tests_563573_xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testng-all-tests">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testng-all-tests">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testng-all-tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testng-all-tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testng-all-tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testng-all-tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testng-all-tests" class="hide-methods passed suite-testng-all-tests"> (hide)</a> <!-- hide-methods passed suite-testng-all-tests -->
+                      <a href="#" panel-name="suite-testng-all-tests" class="show-methods passed suite-testng-all-tests"> (show)</a> <!-- show-methods passed suite-testng-all-tests -->
+                    </span>
+                    <div class="method-list-content passed suite-testng-all-tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.ActivationFunctionsTest" hash-for-method="testApply">testApply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.SignalCollectorsTest" hash-for-method="testApply">testApply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.EnumInputNeuronTest" hash-for-method="testConstructors">testConstructors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.EnumOutputNeuronTest" hash-for-method="testConstructors">testConstructors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.ConnectionTest" hash-for-method="testConstructors">testConstructors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.SimpleHiddenNeuronTest" hash-for-method="testConstructors">testConstructors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.EnumOutputNeuronTest" hash-for-method="testGetOutput">testGetOutput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.ConnectionTest" hash-for-method="testGetWeightedInput">testGetWeightedInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.ConnectionTest" hash-for-method="testGettersAndSetters">testGettersAndSetters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.EnumOutputNeuronTest" hash-for-method="testGettersAndSetters">testGettersAndSetters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.EnumInputNeuronTest" hash-for-method="testGettersAndSetters">testGettersAndSetters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.SimpleHiddenNeuronTest" hash-for-method="testGettersAndSetters">testGettersAndSetters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.toolkit.InputMappersTest" hash-for-method="testMap">testMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.EnumInputNeuronTest" hash-for-method="testSpecialCases">testSpecialCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.ConnectionTest" hash-for-method="testSpecialCases">testSpecialCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.SimpleHiddenNeuronTest" hash-for-method="testSpecialCases">testSpecialCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.EnumOutputNeuronTest" hash-for-method="testSpecialCases">testSpecialCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testng-all-tests" title="com.jsoftware95.janns.ConnectionTest" hash-for-method="testUpdateWeight">testUpdateWeight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testng-all-tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testng-all-tests" class="panel testng-all-tests">
+          <div class="suite-testng-all-tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jsoftware95.janns.SimpleHiddenNeuronTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConstructors">
+                  </a> <!-- testConstructors -->
+                  <span class="method-name">testConstructors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGettersAndSetters">
+                  </a> <!-- testGettersAndSetters -->
+                  <span class="method-name">testGettersAndSetters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSpecialCases">
+                  </a> <!-- testSpecialCases -->
+                  <span class="method-name">testSpecialCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-all-tests-class-passed -->
+          <div class="suite-testng-all-tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jsoftware95.janns.ConnectionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConstructors">
+                  </a> <!-- testConstructors -->
+                  <span class="method-name">testConstructors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetWeightedInput">
+                  </a> <!-- testGetWeightedInput -->
+                  <span class="method-name">testGetWeightedInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGettersAndSetters">
+                  </a> <!-- testGettersAndSetters -->
+                  <span class="method-name">testGettersAndSetters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSpecialCases">
+                  </a> <!-- testSpecialCases -->
+                  <span class="method-name">testSpecialCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateWeight">
+                  </a> <!-- testUpdateWeight -->
+                  <span class="method-name">testUpdateWeight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-all-tests-class-passed -->
+          <div class="suite-testng-all-tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jsoftware95.janns.EnumInputNeuronTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConstructors">
+                  </a> <!-- testConstructors -->
+                  <span class="method-name">testConstructors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGettersAndSetters">
+                  </a> <!-- testGettersAndSetters -->
+                  <span class="method-name">testGettersAndSetters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSpecialCases">
+                  </a> <!-- testSpecialCases -->
+                  <span class="method-name">testSpecialCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-all-tests-class-passed -->
+          <div class="suite-testng-all-tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jsoftware95.janns.ActivationFunctionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApply">
+                  </a> <!-- testApply -->
+                  <span class="method-name">testApply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-all-tests-class-passed -->
+          <div class="suite-testng-all-tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jsoftware95.janns.EnumOutputNeuronTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConstructors">
+                  </a> <!-- testConstructors -->
+                  <span class="method-name">testConstructors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetOutput">
+                  </a> <!-- testGetOutput -->
+                  <span class="method-name">testGetOutput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGettersAndSetters">
+                  </a> <!-- testGettersAndSetters -->
+                  <span class="method-name">testGettersAndSetters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSpecialCases">
+                  </a> <!-- testSpecialCases -->
+                  <span class="method-name">testSpecialCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-all-tests-class-passed -->
+          <div class="suite-testng-all-tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jsoftware95.toolkit.InputMappersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMap">
+                  </a> <!-- testMap -->
+                  <span class="method-name">testMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-all-tests-class-passed -->
+          <div class="suite-testng-all-tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jsoftware95.janns.SignalCollectorsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApply">
+                  </a> <!-- testApply -->
+                  <span class="method-name">testApply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testng-all-tests-class-passed -->
+        </div> <!-- panel testng-all-tests -->
+        <div panel-name="test-xml-testng-all-tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\youcef\.IntelliJIdea2017.3\system\janns_testng_all_tests_563573_xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;testng-all-tests&quot;&gt;
+  &lt;parameter name=&quot;debug-info&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;mocking-scope&quot; value=&quot;methods&quot;/&gt;
+  &lt;parameter name=&quot;log-system-output&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;mocking-strictness&quot; value=&quot;strict_stubs&quot;/&gt;
+  &lt;test name=&quot;test-all&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.jsoftware95.*&quot;&gt;
+        &lt;exclude name=&quot;com.jsoftware95.testng&quot;/&gt;
+      &lt;/package&gt; &lt;!-- com.jsoftware95.* --&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.ActivationFunctionsTest&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.ConnectionTest&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.EnumInputNeuronTest$Inputs&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.EnumInputNeuronTest&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.EnumOutputNeuronTest$Outputs&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.EnumOutputNeuronTest&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.SignalCollectorsTest&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.SimpleHiddenNeuronTest&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.toolkit.InputMappersTest&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.ActivationFunctions$1&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.ActivationFunctions$2&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.ActivationFunctions&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.ActivationFunction&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.HiddenLayer&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.InputLayer&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.InputNeuron&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.Layer&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.Neuron&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.OutputLayer&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.OutputNeuron&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.ProcessingNeuron&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.SignalCollector&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.api.WeightedConnection&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.Connection&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.EnumInputLayer&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.EnumInputNeuron&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.EnumNeuralNetwork&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.EnumOutputLayer&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.EnumOutputNeuron&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.LayerModel&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.NeuralNetworkModel&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.NeuronModel&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.processingNeuronModel&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.SignalCollectors$1&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.SignalCollectors$2&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.SignalCollectors&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.SimpleHiddenLayer&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.janns.SimpleHiddenNeuron&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.jpanzer.Inputs&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.jpanzer.JpanzerPlayerANN&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.jpanzer.Main&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.jpanzer.Outputs&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.toolkit.InputMapper&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.toolkit.InputMappers$1&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.toolkit.InputMappers&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.toolkit.SystemLogger$1&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.toolkit.SystemLogger$logAdapter&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.toolkit.SystemLogger&quot;/&gt;
+      &lt;class name=&quot;com.jsoftware95.toolkit.Wrapper&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test-all --&gt;
+&lt;/suite&gt; &lt;!-- testng-all-tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testng-all-tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testng-all-tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test-all (49 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testng-all-tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testng-all-tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">unit-tests</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testApply</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testConstructors</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetOutput</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetWeightedInput</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGettersAndSetters</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMap</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSpecialCases</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testUpdateWeight</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testng-all-tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testng-all-tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testng-all-tests');
+function tableData_testng-all-tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testConstructors')
+data.setCell(0, 2, 'com.jsoftware95.janns.EnumOutputNeuronTest')
+data.setCell(0, 3, 484);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testApply')
+data.setCell(1, 2, 'com.jsoftware95.janns.ActivationFunctionsTest')
+data.setCell(1, 3, 125);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testConstructors')
+data.setCell(2, 2, 'com.jsoftware95.janns.EnumInputNeuronTest')
+data.setCell(2, 3, 78);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testConstructors')
+data.setCell(3, 2, 'com.jsoftware95.janns.ConnectionTest')
+data.setCell(3, 3, 63);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSpecialCases')
+data.setCell(4, 2, 'com.jsoftware95.janns.SimpleHiddenNeuronTest')
+data.setCell(4, 3, 32);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testUpdateWeight')
+data.setCell(5, 2, 'com.jsoftware95.janns.ConnectionTest')
+data.setCell(5, 3, 31);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetWeightedInput')
+data.setCell(6, 2, 'com.jsoftware95.janns.ConnectionTest')
+data.setCell(6, 3, 15);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSpecialCases')
+data.setCell(7, 2, 'com.jsoftware95.janns.EnumInputNeuronTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSpecialCases')
+data.setCell(8, 2, 'com.jsoftware95.janns.ConnectionTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetOutput')
+data.setCell(9, 2, 'com.jsoftware95.janns.EnumOutputNeuronTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGettersAndSetters')
+data.setCell(10, 2, 'com.jsoftware95.janns.ConnectionTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSpecialCases')
+data.setCell(11, 2, 'com.jsoftware95.janns.EnumOutputNeuronTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGettersAndSetters')
+data.setCell(12, 2, 'com.jsoftware95.janns.EnumOutputNeuronTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testMap')
+data.setCell(13, 2, 'com.jsoftware95.toolkit.InputMappersTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testGettersAndSetters')
+data.setCell(14, 2, 'com.jsoftware95.janns.EnumInputNeuronTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testGettersAndSetters')
+data.setCell(15, 2, 'com.jsoftware95.janns.SimpleHiddenNeuronTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testConstructors')
+data.setCell(16, 2, 'com.jsoftware95.janns.SimpleHiddenNeuronTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testApply')
+data.setCell(17, 2, 'com.jsoftware95.janns.SignalCollectorsTest')
+data.setCell(17, 3, 0);
+window.suiteTableData['testng-all-tests']= { tableData: data, tableDiv: 'times-div-testng-all-tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 828 ms</span>
+              <div id="times-div-testng-all-tests">
+              </div> <!-- times-div-testng-all-tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testng-all-tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testng-all-tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testng-all-tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testng-all-tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jsoftware95.janns.ActivationFunctionsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testApply</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jsoftware95.janns.EnumInputNeuronTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testConstructors</span>
+                <span class="method-start">156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGettersAndSetters</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSpecialCases</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jsoftware95.janns.EnumOutputNeuronTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testConstructors</span>
+                <span class="method-start">250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetOutput</span>
+                <span class="method-start">734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGettersAndSetters</span>
+                <span class="method-start">734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSpecialCases</span>
+                <span class="method-start">750 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jsoftware95.janns.ConnectionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testConstructors</span>
+                <span class="method-start">750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetWeightedInput</span>
+                <span class="method-start">813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGettersAndSetters</span>
+                <span class="method-start">828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSpecialCases</span>
+                <span class="method-start">828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateWeight</span>
+                <span class="method-start">828 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jsoftware95.janns.SignalCollectorsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testApply</span>
+                <span class="method-start">859 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jsoftware95.janns.SimpleHiddenNeuronTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testConstructors</span>
+                <span class="method-start">859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGettersAndSetters</span>
+                <span class="method-start">859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSpecialCases</span>
+                <span class="method-start">859 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jsoftware95.toolkit.InputMappersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMap</span>
+                <span class="method-start">891 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

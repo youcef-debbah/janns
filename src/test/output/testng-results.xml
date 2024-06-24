@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testng-all-tests" duration-ms="969" started-at="2018-01-05T23:10:50Z" finished-at="2018-01-05T23:10:51Z">
+    <groups>
+      <group name="unit-tests">
+        <method signature="ActivationFunctionsTest.testApply()[pri:0, instance:com.jsoftware95.janns.ActivationFunctionsTest@62727399]" name="testApply" class="com.jsoftware95.janns.ActivationFunctionsTest"/>
+        <method signature="ConnectionTest.testConstructors()[pri:0, instance:com.jsoftware95.janns.ConnectionTest@2654635]" name="testConstructors" class="com.jsoftware95.janns.ConnectionTest"/>
+        <method signature="ConnectionTest.testGetWeightedInput()[pri:0, instance:com.jsoftware95.janns.ConnectionTest@2654635]" name="testGetWeightedInput" class="com.jsoftware95.janns.ConnectionTest"/>
+        <method signature="ConnectionTest.testGettersAndSetters()[pri:0, instance:com.jsoftware95.janns.ConnectionTest@2654635]" name="testGettersAndSetters" class="com.jsoftware95.janns.ConnectionTest"/>
+        <method signature="ConnectionTest.testSpecialCases()[pri:0, instance:com.jsoftware95.janns.ConnectionTest@2654635]" name="testSpecialCases" class="com.jsoftware95.janns.ConnectionTest"/>
+        <method signature="ConnectionTest.testUpdateWeight()[pri:0, instance:com.jsoftware95.janns.ConnectionTest@2654635]" name="testUpdateWeight" class="com.jsoftware95.janns.ConnectionTest"/>
+        <method signature="EnumInputNeuronTest.testConstructors()[pri:0, instance:com.jsoftware95.janns.EnumInputNeuronTest@737a135b]" name="testConstructors" class="com.jsoftware95.janns.EnumInputNeuronTest"/>
+        <method signature="EnumInputNeuronTest.testGettersAndSetters()[pri:0, instance:com.jsoftware95.janns.EnumInputNeuronTest@737a135b]" name="testGettersAndSetters" class="com.jsoftware95.janns.EnumInputNeuronTest"/>
+        <method signature="EnumInputNeuronTest.testSpecialCases()[pri:0, instance:com.jsoftware95.janns.EnumInputNeuronTest@737a135b]" name="testSpecialCases" class="com.jsoftware95.janns.EnumInputNeuronTest"/>
+        <method signature="EnumOutputNeuronTest.testConstructors()[pri:0, instance:com.jsoftware95.janns.EnumOutputNeuronTest@687ef2e0]" name="testConstructors" class="com.jsoftware95.janns.EnumOutputNeuronTest"/>
+        <method signature="EnumOutputNeuronTest.testGetOutput()[pri:0, instance:com.jsoftware95.janns.EnumOutputNeuronTest@687ef2e0]" name="testGetOutput" class="com.jsoftware95.janns.EnumOutputNeuronTest"/>
+        <method signature="EnumOutputNeuronTest.testGettersAndSetters()[pri:0, instance:com.jsoftware95.janns.EnumOutputNeuronTest@687ef2e0]" name="testGettersAndSetters" class="com.jsoftware95.janns.EnumOutputNeuronTest"/>
+        <method signature="EnumOutputNeuronTest.testSpecialCases()[pri:0, instance:com.jsoftware95.janns.EnumOutputNeuronTest@687ef2e0]" name="testSpecialCases" class="com.jsoftware95.janns.EnumOutputNeuronTest"/>
+        <method signature="InputMappersTest.testMap()[pri:0, instance:com.jsoftware95.toolkit.InputMappersTest@1e636ea3]" name="testMap" class="com.jsoftware95.toolkit.InputMappersTest"/>
+        <method signature="SignalCollectorsTest.testApply()[pri:0, instance:com.jsoftware95.janns.SignalCollectorsTest@15dcfae7]" name="testApply" class="com.jsoftware95.janns.SignalCollectorsTest"/>
+        <method signature="SimpleHiddenNeuronTest.testConstructors()[pri:0, instance:com.jsoftware95.janns.SimpleHiddenNeuronTest@3da05287]" name="testConstructors" class="com.jsoftware95.janns.SimpleHiddenNeuronTest"/>
+        <method signature="SimpleHiddenNeuronTest.testGettersAndSetters()[pri:0, instance:com.jsoftware95.janns.SimpleHiddenNeuronTest@3da05287]" name="testGettersAndSetters" class="com.jsoftware95.janns.SimpleHiddenNeuronTest"/>
+        <method signature="SimpleHiddenNeuronTest.testSpecialCases()[pri:0, instance:com.jsoftware95.janns.SimpleHiddenNeuronTest@3da05287]" name="testSpecialCases" class="com.jsoftware95.janns.SimpleHiddenNeuronTest"/>
+      </group> <!-- unit-tests -->
+    </groups>
+    <test name="test-all" duration-ms="969" started-at="2018-01-05T23:10:50Z" finished-at="2018-01-05T23:10:51Z">
+      <class name="com.jsoftware95.janns.EnumOutputNeuronTest">
+        <test-method status="PASS" signature="testConstructors()[pri:0, instance:com.jsoftware95.janns.EnumOutputNeuronTest@687ef2e0]" name="testConstructors" duration-ms="484" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructors -->
+        <test-method status="PASS" signature="testGetOutput()[pri:0, instance:com.jsoftware95.janns.EnumOutputNeuronTest@687ef2e0]" name="testGetOutput" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOutput -->
+        <test-method status="PASS" signature="testGettersAndSetters()[pri:0, instance:com.jsoftware95.janns.EnumOutputNeuronTest@687ef2e0]" name="testGettersAndSetters" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersAndSetters -->
+        <test-method status="PASS" signature="testSpecialCases()[pri:0, instance:com.jsoftware95.janns.EnumOutputNeuronTest@687ef2e0]" name="testSpecialCases" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecialCases -->
+      </class> <!-- com.jsoftware95.janns.EnumOutputNeuronTest -->
+      <class name="com.jsoftware95.janns.ActivationFunctionsTest">
+        <test-method status="PASS" signature="testApply()[pri:0, instance:com.jsoftware95.janns.ActivationFunctionsTest@62727399]" name="testApply" duration-ms="125" started-at="2018-01-06T00:10:50Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApply -->
+      </class> <!-- com.jsoftware95.janns.ActivationFunctionsTest -->
+      <class name="com.jsoftware95.janns.EnumInputNeuronTest">
+        <test-method status="PASS" signature="testConstructors()[pri:0, instance:com.jsoftware95.janns.EnumInputNeuronTest@737a135b]" name="testConstructors" duration-ms="78" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructors -->
+        <test-method status="PASS" signature="testSpecialCases()[pri:0, instance:com.jsoftware95.janns.EnumInputNeuronTest@737a135b]" name="testSpecialCases" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecialCases -->
+        <test-method status="PASS" signature="testGettersAndSetters()[pri:0, instance:com.jsoftware95.janns.EnumInputNeuronTest@737a135b]" name="testGettersAndSetters" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersAndSetters -->
+      </class> <!-- com.jsoftware95.janns.EnumInputNeuronTest -->
+      <class name="com.jsoftware95.janns.ConnectionTest">
+        <test-method status="PASS" signature="testConstructors()[pri:0, instance:com.jsoftware95.janns.ConnectionTest@2654635]" name="testConstructors" duration-ms="63" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructors -->
+        <test-method status="PASS" signature="testGetWeightedInput()[pri:0, instance:com.jsoftware95.janns.ConnectionTest@2654635]" name="testGetWeightedInput" duration-ms="15" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetWeightedInput -->
+        <test-method status="PASS" signature="testSpecialCases()[pri:0, instance:com.jsoftware95.janns.ConnectionTest@2654635]" name="testSpecialCases" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecialCases -->
+        <test-method status="PASS" signature="testGettersAndSetters()[pri:0, instance:com.jsoftware95.janns.ConnectionTest@2654635]" name="testGettersAndSetters" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersAndSetters -->
+        <test-method status="PASS" signature="testUpdateWeight()[pri:0, instance:com.jsoftware95.janns.ConnectionTest@2654635]" name="testUpdateWeight" duration-ms="31" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateWeight -->
+      </class> <!-- com.jsoftware95.janns.ConnectionTest -->
+      <class name="com.jsoftware95.janns.SimpleHiddenNeuronTest">
+        <test-method status="PASS" signature="testSpecialCases()[pri:0, instance:com.jsoftware95.janns.SimpleHiddenNeuronTest@3da05287]" name="testSpecialCases" duration-ms="32" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpecialCases -->
+        <test-method status="PASS" signature="testGettersAndSetters()[pri:0, instance:com.jsoftware95.janns.SimpleHiddenNeuronTest@3da05287]" name="testGettersAndSetters" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettersAndSetters -->
+        <test-method status="PASS" signature="testConstructors()[pri:0, instance:com.jsoftware95.janns.SimpleHiddenNeuronTest@3da05287]" name="testConstructors" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructors -->
+      </class> <!-- com.jsoftware95.janns.SimpleHiddenNeuronTest -->
+      <class name="com.jsoftware95.toolkit.InputMappersTest">
+        <test-method status="PASS" signature="testMap()[pri:0, instance:com.jsoftware95.toolkit.InputMappersTest@1e636ea3]" name="testMap" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMap -->
+      </class> <!-- com.jsoftware95.toolkit.InputMappersTest -->
+      <class name="com.jsoftware95.janns.SignalCollectorsTest">
+        <test-method status="PASS" signature="testApply()[pri:0, instance:com.jsoftware95.janns.SignalCollectorsTest@15dcfae7]" name="testApply" duration-ms="0" started-at="2018-01-06T00:10:51Z" finished-at="2018-01-06T00:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApply -->
+      </class> <!-- com.jsoftware95.janns.SignalCollectorsTest -->
+    </test> <!-- test-all -->
+  </suite> <!-- testng-all-tests -->
+</testng-results>
