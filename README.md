@@ -1,8 +1,11 @@
 ## Overview
 
 Right after graduating from the university, I became interested in the artificial intelligence field (mainly due to the hype of Google releasing TensorFlow - 1.0.0), after a lot of reading about the subject, instead of just learning how to use a library like TensorFlow I created this project as a sandbox to experiment with artificial neuron network (ANN) models.
+
 This project contains a small library called "janns" that implements many common neuron network components from scratch in Java, using object-oriented and academic-friendly code, with no complex matrix calculations.
+
 The library package is used by a small game called "jpanzer" which is essentially a self-play game with AI agents, each one of these agents (called Apha and Beta) controls a tank on the board, they can move in 4 directions and shoots, the goal is shooting the opponent but other actions like moving can also give the agents score points, a genetic algorithm is used to evolve the models, the average score of hundreds of rounds is used as the fitness function.
+
 The first generation is completely random and quite boring to watch but later generations usually evolve some interesting behavior such as moving diagonally by alternatively moving 1 pixel in each frame.
 
 ![screenshot](https://raw.githubusercontent.com/youcef-debbah/janns/main/screenshots/01.png)
